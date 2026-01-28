@@ -81,7 +81,7 @@ font-family: sans-serif;
     align-content: center;
     justify-content: center;
     text-align:center;
-    gap: 50px;
+    gap: 60px;
     
 
 }
@@ -123,5 +123,35 @@ h1{
     
 }
 
+.welcome {
  
 
+ }
+
+ #hpage {
+         width: 100%;
+         height:100cap;
+ }
+
+ .message {
+    color: blanchedalmond;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    right: 75%;
+    
+    
+    h2{
+        font-size: 3.5cap;
+
+     }
+     p{
+        font-size: 1.5cap;
+        font-style: oblique;
+        
+     }
+ }
+
+ #explore {
+       border-radius: 20px;     
+ }
