@@ -4,9 +4,16 @@
     box-sizing: border-box;
 }
 
+
 body{
   
-   background-color: rgba(250, 235, 215, 0.26);
+   background-color: #242424;
+}
+
+
+.menus {
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -76,57 +83,64 @@ font-family: sans-serif;
     color: rgb(226, 150, 57);
    
  }
+
 .menu { 
-    display:flex; 
+    padding-top: 50px;
+    display:inline-grid;
     align-content: center;
     justify-content: center;
     text-align:center;
     gap: 60px;
-    
-
+    grid-template-columns: repeat(3, 1fr);
 }
+
 #image1 {
-    width: 400px;
-    height: 300px;
-    float: left;
-    margin-top: 50px;
-    margin-left: 50px;
-    border-radius: 20px;
+    width: 50%;
+    height: 50%;
+
+    object-fit: cover;
+    
 }
 
-#image2 { 
-    width: 400px;
-    height: 300px;
-    float: right;
-    margin-top: 50px;
-    margin-right: 50px;
-    border-radius: 20px;
-}
 
 .spanish {
    border: 0px ;
+   height: 35cap;
    padding-top: 80px;
+   display: flex;
+   background-color: blanchedalmond;
+   border-radius: 5px;
+   width: 40cap;
+  
    
-    h4{
-        padding-top: 10px;
-    }
 }
 
-h2 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ .desc{
     
+   
+    h4{
+         color: #242424;
+    }
+
+    h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color: #242424;
+        }
+
+    p{
+     color: #242424;
+    }
 }
 
 h1{
     padding-top: 80px;
     text-align: center;
+    color: rgba(240, 255, 255, 0.877);
     
 }
 
-.welcome {
- 
 
- }
+
 
  #hpage {
          width: 100%;
@@ -138,7 +152,7 @@ h1{
     position: absolute;
     text-align: center;
     top:40%;
-    right: 60%;
+    right: 65%;
     
     h2{
         font-size: 6.5cap;
@@ -153,13 +167,20 @@ h1{
 
  #explore {
        margin-top: 15px;
-       border-radius: 10px;
+       border-radius: 5px;
        height: 35px;  
        width: 200px;
        background-color: rgba(245, 245, 220, 0.192);
        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-       font-size: 15px;
+       font-size: 17px;
+       font-weight: bolder;
        color: rgba(245, 245, 220, 0.733);
        border-color: rgba(255, 235, 205, 0.027);
 
  }
+
+ #explore:hover {
+      background-color: rgba(10, 10, 10, 0.082);
+ }
+
+ 
